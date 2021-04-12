@@ -1,6 +1,5 @@
-Police Contraband Searches
+### Police Contraband Searches
 
-============================
 
 
 The aim of the work was to build a model to fairly predict if a vehicle that is stopped by a police officer has or not contraband, so the police officer has a sustained decision to look for contraband or not.
