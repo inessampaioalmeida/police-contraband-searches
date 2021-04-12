@@ -81,7 +81,7 @@ def predict():
     obs = pd.DataFrame([observation], columns=columns).astype(dtypes)
     # prediction of the positive class
     proba = pipeline.predict_proba(obs)[0, 1]
-    result = (proba >= 0.55)
+    result = (proba >= 0.45)
     response = {'ContrabandIndicator': bool(result)}
     p = Prediction(
         observation_id=_id,
